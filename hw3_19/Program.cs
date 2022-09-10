@@ -16,4 +16,5 @@ void Polindrom(string num)
 Console.Write("Введите пятизначное число: ");
 string number = Console.ReadLine();
 
-Polindrom(number);
+if (number.Length == 5) Polindrom(number);
+else Console.WriteLine("Введенное число не пятизначное");
